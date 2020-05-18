@@ -8,7 +8,7 @@ pip install -r requirements.txt
 
 docker-compose up -d mongo  
 
-
+`
 python main.py --help  
 Usage: main.py [OPTIONS] COMMAND [ARGS]...  
 
@@ -22,6 +22,7 @@ Commands:
   removefield  
   sortjson  
   upperfield  
+`
 
 python main.py initdb  
 python main.py exportdb  
